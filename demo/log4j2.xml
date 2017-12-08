@@ -15,9 +15,9 @@
         </RollingFile>
     </Appenders>
     <Loggers>
-        <Root>
-            <AppenderRef ref="Console" level="warn"/>
-            <AppenderRef ref="MonitoringRollingFile" level="info"/>
+        <Root level="INFO">
+            <AppenderRef ref="Console" level="WARN"/>
+            <AppenderRef ref="MonitoringRollingFile"/>
         </Root>
     </Loggers>
 </Configuration>
